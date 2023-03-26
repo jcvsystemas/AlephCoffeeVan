@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Alpino;
+    src: url(../webfonts/Alpino-Regular.otf);
+}
+
+@font-face {
+    font-family: Hauora;
+    src: url(../webfonts/Hauora-Regular.otf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(../webfonts/Oswald-VariableFont_wght.ttf);
+}
+/*Color & styles vars*/
+:root {
+    --brown: #5F3529;
+    --sunset: #F2D0A4;
+    --beige: #FFECCC;
+    --green-tea: #C8D6AF;
+    --blue: #48639C;
+    --brown-secondary: #9D776C;
+}
+.bg-brown {
+    background-color: var(--brown);
+}
+.text-brown {
+    color: var(--brown);
+}
+.bg-brown-secondary {
+    background-color: var(--brown-secondary);
+}
+.text-brown-secondary {
+    color: var(--brown-secondary);
+}
+.bg-sunset {
+    background-color: var(--sunset);
+}
+.text-sunset {
+    color: var(--sunset);
+}
+.bg-beige {
+    background-color: var(--beige);
+}
+.text-beige {
+    color: var(--beige);
+}
+.bg-green-tea {
+    background-color: var(--green-tea);
+}
+.text-green-tea {
+    color: var(--green-tea);
+}
+.bg-blue {
+    background-color: var(--blue);
+}
+.text-blue {
+    color: var(--blue);
+}
+body {
+    background-color: var(--beige)!important;
+    overflow-x: hidden;
+}
+.font-alpino {
+    font-family: 'Alpino'!important;
+}
+.font-hauora {
+    font-family: 'Hauora'!important;
+}
+.font-oswald {
+    font-family: 'Oswald';
+}
+.logo-title,
+.logo-subtitle{
+    font-weight: 900;
+}
+.logo-title {
+    font-size: 30px;
+    margin: 0px!important;
+    padding: 0px!important;
+}
+.logo-subtitle {
+    font-size: 20px;
+    margin: 0px!important;
+}
+.margin-minus-header {
+    margin-top: 83px;
+}
+.container-minus-header {
+    height: calc(100vh - 83px);
+}
+.slider-title {
+    font-size: 2.6em;
+    font-weight: 500;
+}
+.slider-subtitle {
+    font-size: 1.3em;
+}
+.slider-icon {
+    font-size: 65px;
+}
+.nav-item>.active {
+    color: var(--sunset)!important;
+}
+.nav-link:hover {
+    color: var(--sunset)!important;
+}
+.btn-brown {
+    background-color: var(--brown)!important;
+    color: var(--beige)!important;
+}
+.btn-brown:hover {
+    background-color: var(--beige)!important;
+    color: var(--brown)!important;
+}
+/*-lg controller*/
+@media (min-width: 992px) {
+    .margin-minus-header {
+        margin-top: 94px;
+    }
+    .container-minus-header {
+        height: calc(100vh - 94px);
+    }
+    .small-gallery img {
+        height: 245px;
+    }
+    .sg-big {
+        height: 500px!important;
+    }
+}
