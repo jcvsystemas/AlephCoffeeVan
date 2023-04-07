@@ -104,13 +104,35 @@ body {
 .nav-link:hover {
     color: var(--sunset)!important;
 }
+.btn-brown,
+.btn-brown a {
+    color: var(--beige)!important;
+    text-decoration: none;
+}
 .btn-brown {
+    background-color: var(--brown)!important;
+}
+.btn-brown:hover,
+.btn-brown a:hover {
+    background-color: var(--beige)!important;
+    color: var(--brown)!important;
+}
+.btn-beige,
+.btn-beige a {
+    color: var(--brown)!important;
+    text-decoration: none;
+}
+.btn-beige {
+    background-color: var(--beige)!important;
+    color: var(--brown)!important;
+}
+.btn-beige:hover {
     background-color: var(--brown)!important;
     color: var(--beige)!important;
 }
-.btn-brown:hover {
-    background-color: var(--beige)!important;
-    color: var(--brown)!important;
+.btn-beige:hover,
+.btn-beige a:hover {
+    color: var(--beige)!important;
 }
 /*-lg controller*/
 @media (min-width: 992px) {
